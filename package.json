@@ -1,8 +1,8 @@
 {
-  "name": "@semantic-release/github",
-  "description": "semantic-release plugin to publish a GitHub release and comment on released Pull Requests/Issues",
+  "name": "@semantic-release/coding",
+  "description": "semantic-release plugin to publish a coding.net release and comment on released Pull Requests/Issues",
   "version": "0.0.0-development",
-  "author": "Pierre Vanduynslager (https://twitter.com/@pvdlg_)",
+  "author": "Jeff Tian (https://twitter.com/@zizhujy)",
   "ava": {
     "helpers": [
       "test/helpers/**/*"
@@ -54,7 +54,7 @@
     "lib",
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/github#readme",
+  "homepage": "https://github.com/semantic-release-plugins/coding#readme",
   "keywords": [
     "git",
     "github",
@@ -93,7 +93,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/github.git"
+    "url": "https://github.com/semantic-release-plugins/coding"
   },
   "scripts": {
     "codecov": "codecov -f coverage/coverage-final.json",
